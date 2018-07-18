@@ -10,10 +10,19 @@ include("registration.php");
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
+  <style type ="text/css">
+  .navbar-inverse{
+ background: rgba(248,80,50,1);
+background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(241,111,92,1) 92%, rgba(231,56,39,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(51%, rgba(246,41,12,1)), color-stop(71%, rgba(240,47,23,1)), color-stop(92%, rgba(241,111,92,1)), color-stop(100%, rgba(231,56,39,1)));
+background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(241,111,92,1) 92%, rgba(231,56,39,1) 100%);
+background: -o-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(241,111,92,1) 92%, rgba(231,56,39,1) 100%);
+background: -ms-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(241,111,92,1) 92%, rgba(231,56,39,1) 100%);
+background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(241,111,92,1) 92%, rgba(231,56,39,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );}
     /* Add a gray background color and some padding to the footer */
     footer {
-      background-color: #f2f2f2;
+      background-color: #yellow;
       padding: 25px;
     }
 
@@ -28,7 +37,7 @@ include("registration.php");
         display: none;
       }
     }
-  </style>
+  </style >
 </head>
 <body>
 
